@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6960d65-f561-4ac8-8b8a-625a99fb89e2" name="Changes" comment="Dependencies updated and StandAloneTest.java created">
+    <list default="true" id="e6960d65-f561-4ac8-8b8a-625a99fb89e2" name="Changes" comment="Successfully logged in">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/StandAloneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/StandAloneTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664345469040</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Successfully logged in">
+      <created>1664345771148</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1664345771148</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -110,6 +118,7 @@
     <MESSAGE value="Selenium and TestNG dependencies added" />
     <MESSAGE value="Webdriver manager dependency added" />
     <MESSAGE value="Dependencies updated and StandAloneTest.java created" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dependencies updated and StandAloneTest.java created" />
+    <MESSAGE value="Successfully logged in" />
+    <option name="LAST_COMMIT_MESSAGE" value="Successfully logged in" />
   </component>
 </project>
