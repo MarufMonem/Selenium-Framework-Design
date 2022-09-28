@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6960d65-f561-4ac8-8b8a-625a99fb89e2" name="Changes" comment="Webdriver manager dependency added">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Selenium/StandAloneTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Selenium/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/AppTest.java" beforeDir="false" />
+    <list default="true" id="e6960d65-f561-4ac8-8b8a-625a99fb89e2" name="Changes" comment="Dependencies updated and StandAloneTest.java created">
+      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/StandAloneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/StandAloneTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664249416701</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Dependencies updated and StandAloneTest.java created">
+      <created>1664345469040</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664345469040</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -106,6 +109,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Selenium and TestNG dependencies added" />
     <MESSAGE value="Webdriver manager dependency added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Webdriver manager dependency added" />
+    <MESSAGE value="Dependencies updated and StandAloneTest.java created" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dependencies updated and StandAloneTest.java created" />
   </component>
 </project>
