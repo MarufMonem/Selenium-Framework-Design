@@ -67,8 +67,10 @@ public class StandAloneTest {
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".list-group-item")));
         driver.findElement(By.cssSelector(".ta-item:nth-child(2)")).click();
         driver.findElement(By.cssSelector(".btnn.action__submit")).click();
+        String successMsg = driver.findElement(By.cssSelector(".hero-primary")).getText();
 
-
+        Assert.assertTrue(successMsg.contains("THANKYOU"));
+        System.out.println("Done!");
 
 
         Thread.sleep(10000);
