@@ -6,6 +6,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -54,8 +55,22 @@ public class StandAloneTest {
 
         Boolean match= cartItems.stream().anyMatch(item-> item.getText().contains("ZARA"));
         Assert.assertTrue(match);
+//      Checkout
+        driver.findElement(By.xpath("//button[text()='Checkout']")).click();
+//      Shipping details
+//        Country
+//        driver.findElement(By.xpath("//input[@placeholder='Select Country']")).sendKeys("Bangladesh");
 
-       
+        Actions a = new Actions((driver));
+        a.sendKeys( driver.findElement(By.xpath("//input[@placeholder='Select Country']")), "Ban").build().perform();
+//        waiting till the suggested results appear
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".list-group-item")));
+        driver.findElement(By.cssSelector(".ta-item:nth-child(2)")).click();
+        driver.findElement(By.cssSelector(".btnn.action__submit")).click();
+
+
+
+
         Thread.sleep(10000);
         driver.quit();
     }
