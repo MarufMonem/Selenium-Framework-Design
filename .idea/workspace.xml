@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6960d65-f561-4ac8-8b8a-625a99fb89e2" name="Changes" comment="">
+    <list default="true" id="e6960d65-f561-4ac8-8b8a-625a99fb89e2" name="Changes" comment="Added wait for the animation and toast message. Added code for cart button.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/StandAloneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/StandAloneTest.java" afterDir="false" />
     </list>
@@ -107,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664348065440</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added wait for the animation and toast message. Added code for cart button.">
+      <created>1664596099132</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1664596099132</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -127,6 +134,7 @@
     <MESSAGE value="Dependencies updated and StandAloneTest.java created" />
     <MESSAGE value="Successfully logged in" />
     <MESSAGE value="Finding desired elements using java streams and adding item to cart" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finding desired elements using java streams and adding item to cart" />
+    <MESSAGE value="Added wait for the animation and toast message. Added code for cart button." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added wait for the animation and toast message. Added code for cart button." />
   </component>
 </project>

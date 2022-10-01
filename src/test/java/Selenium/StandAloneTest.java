@@ -8,6 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 
 import java.time.Duration;
 import java.util.List;
@@ -48,6 +49,13 @@ public class StandAloneTest {
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='toast-container']")));
 
         driver.findElement(By.xpath("//button[@routerlink='/dashboard/cart']")).click();
+
+        List<WebElement> cartItems = driver.findElements(By.cssSelector(".cart .items h3"));
+
+        Boolean match= cartItems.stream().anyMatch(item-> item.getText().contains("ZARA"));
+        Assert.assertTrue(match);
+
+       
         Thread.sleep(10000);
         driver.quit();
     }
