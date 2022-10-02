@@ -1,0 +1,15 @@
+Exercise
+--------
+
+1. Navigate to this page: https://rahulshettyacademy.com/client/"
+2. Create an account
+3. After creating an account logout and log back in
+4. After logging in from the product page select a product. Preferably ZARA COAT
+5. Add this to the cart
+6. Go to your cart
+7. Confirm the correct product is in the cart
+8. Go to checkout
+9. Add your country using the suggestive options
+10. Place the order
+
+Now automate from step 3 to 10 using one standalone test
