@@ -1,8 +1,7 @@
-package Selenium;
+package Selenium.pageObjectModel;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -22,6 +21,8 @@ public class StandAloneTest {
         WebDriver driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10)); //Implicit wait
         driver.get("https://rahulshettyacademy.com/client/");
+//      Calling the constructor
+        landingPage lp = new landingPage(driver);
 //      User name
         driver.findElement(By.id("userEmail")).sendKeys("maruftest@yahoo.com");
 //        Password
