@@ -13,7 +13,7 @@ import org.testng.Assert;
 import java.time.Duration;
 import java.util.List;
 
-public class StandAloneTest {
+public class StandAloneTest_Test {
     public static void main(String[] args) throws InterruptedException {
 //        Initial setup
         String desiredProduct = "Zara";
@@ -21,6 +21,19 @@ public class StandAloneTest {
         WebDriver driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10)); //Implicit wait
         driver.get("https://rahulshettyacademy.com/client/");
+
+//      Calling the constructor
+        landingPage lp = new landingPage(driver);
+
+        lp.goToApp("https://rahulshettyacademy.com/client/");
+
+        lp.loginApplication("maruftest@yahoo.com","Test123456" );
+
+
+
+
+
+        ---------------------------------------------
 //      User name
         driver.findElement(By.id("userEmail")).sendKeys("maruftest@yahoo.com");
 //        Password

@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6960d65-f561-4ac8-8b8a-625a99fb89e2" name="Changes" comment="Added page factory annotations">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Selenium/pageObjectModel/landingPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/Excercise - stand alone test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/pageObjectModel/Excercise - stand alone test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/StandAloneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/pageObjectModel/StandAloneTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/pageObjectModel/StandAloneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/pageObjectModel/StandAloneTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/pageObjectModel/landingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/pageObjectModel/landingPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +43,11 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Selenium.pageObjectModel" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="StandAloneTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Selenium_pageObjectModel.StandAloneTest" />
@@ -137,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664599397231</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added page factory annotations">
+      <created>1665556517917</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1665556517918</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

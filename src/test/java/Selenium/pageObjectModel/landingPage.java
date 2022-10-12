@@ -24,4 +24,14 @@ public class landingPage {
 
     @FindBy(id="login")
     WebElement loginClick;
+
+    public void loginApplication(String email, String password){
+        userEmail.sendKeys(email);
+        userPassword.sendKeys(password);
+        loginClick.click();
+    }
+
+    public void goToApp(String url){
+        driver.get(url);
+    }
 }
