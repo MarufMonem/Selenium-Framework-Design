@@ -1,29 +1,23 @@
 package Selenium.pageObjectModel;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class landingPage {
+public class ProductCatalogue {
     WebDriver driver;
 
     //        constructor
-    public landingPage(WebDriver d){
+    public ProductCatalogue(WebDriver d){
         this.driver = d;
         PageFactory.initElements(driver, this);
     }
 
 //    Page Factory
-    @FindBy(id="userEmail")
-    WebElement userEmail;
+    @FindBy(className="mb-3")
+    List<WebElement> products;
 
-    @FindBy(id="userPassword")
-    WebElement userPassword;
-
-    @FindBy(id="login")
-    WebElement loginClick;
 
     public void loginApplication(String email, String password){
         userEmail.sendKeys(email);
@@ -34,4 +28,6 @@ public class landingPage {
     public void goToApp(){
         driver.get("https://rahulshettyacademy.com/client/");
     }
+
+
 }

@@ -25,7 +25,7 @@ public class StandAloneTest_Test {
 //      Calling the constructor
         landingPage lp = new landingPage(driver);
 
-        lp.goToApp("https://rahulshettyacademy.com/client/");
+        lp.goToApp();
 
         lp.loginApplication("maruftest@yahoo.com","Test123456" );
 
