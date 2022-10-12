@@ -29,11 +29,14 @@ public class StandAloneTest_Test {
 
         lp.loginApplication("maruftest@yahoo.com","Test123456" );
 
+        ProductCatalogue pc = new ProductCatalogue(driver);
+        List<WebElement> products = pc.getProductList();
 
 
 
 
-        ---------------------------------------------
+
+//        ---------------------------------------------
 //      User name
         driver.findElement(By.id("userEmail")).sendKeys("maruftest@yahoo.com");
 //        Password

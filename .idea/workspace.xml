@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6960d65-f561-4ac8-8b8a-625a99fb89e2" name="Changes" comment="Duplicated the StandAloneTest.java to make changes here.">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Selenium/pageObjectModel/ProductCatalogue.java" afterDir="false" />
+    <list default="true" id="e6960d65-f561-4ac8-8b8a-625a99fb89e2" name="Changes" comment="Created a class to handle the resuable items">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/abstractPackages/abstractComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/abstractPackages/abstractComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/pageObjectModel/ProductCatalogue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/pageObjectModel/ProductCatalogue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/pageObjectModel/StandAloneTest_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/pageObjectModel/StandAloneTest_Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/pageObjectModel/landingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/pageObjectModel/landingPage.java" afterDir="false" />
     </list>
@@ -157,7 +157,21 @@
       <option name="project" value="LOCAL" />
       <updated>1665557071633</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Created a class to handle the product page">
+      <created>1665559665317</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1665559665317</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Created a class to handle the resuable items">
+      <created>1665559684271</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1665559684271</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -184,6 +198,8 @@
     <MESSAGE value="Package renamed" />
     <MESSAGE value="Added page factory annotations" />
     <MESSAGE value="Duplicated the StandAloneTest.java to make changes here." />
-    <option name="LAST_COMMIT_MESSAGE" value="Duplicated the StandAloneTest.java to make changes here." />
+    <MESSAGE value="Created a class to handle the product page" />
+    <MESSAGE value="Created a class to handle the resuable items" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created a class to handle the resuable items" />
   </component>
 </project>
