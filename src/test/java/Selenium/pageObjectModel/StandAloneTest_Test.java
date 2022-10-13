@@ -32,6 +32,9 @@ public class StandAloneTest_Test {
         List<WebElement> products = pc.getProductList();
         pc.addProductToCart("ZARA");
 
+        Cart c = new Cart(driver);
+        Boolean confirmation = c.verifyCartItem(desiredProduct);
+        Assert.assertTrue(confirmation);
 
 
 
