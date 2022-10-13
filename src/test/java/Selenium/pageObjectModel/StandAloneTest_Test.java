@@ -33,7 +33,7 @@ public class StandAloneTest_Test {
         pc.addProductToCart("ZARA");
 
         Cart c = new Cart(driver);
-        Boolean confirmation = c.verifyCartItem(desiredProduct);
+        boolean confirmation = c.verifyCartItem(desiredProduct);
         Assert.assertTrue(confirmation);
 
 
@@ -67,17 +67,17 @@ public class StandAloneTest_Test {
 //        wait.until(ExpectedConditions.invisibilityOf(driver.findElement(By.cssSelector(".ng-animating"))));
 //        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='toast-container']")));
 
-        driver.findElement(By.xpath("//button[@routerlink='/dashboard/cart']")).click();
-
-        List<WebElement> cartItems = driver.findElements(By.cssSelector(".cart .items h3"));
-
-        Boolean match= cartItems.stream().anyMatch(item-> item.getText().contains("ZARA"));
-        Assert.assertTrue(match);
-//      Checkout
-        driver.findElement(By.xpath("//button[text()='Checkout']")).click();
-//      Shipping details
-//        Country
-//        driver.findElement(By.xpath("//input[@placeholder='Select Country']")).sendKeys("Bangladesh");
+//        driver.findElement(By.xpath("//button[@routerlink='/dashboard/cart']")).click();
+//
+//        List<WebElement> cartItems = driver.findElements(By.cssSelector(".cart .items h3"));
+//
+//        Boolean match= cartItems.stream().anyMatch(item-> item.getText().contains("ZARA"));
+//        Assert.assertTrue(match);
+////      Checkout
+//        driver.findElement(By.xpath("//button[text()='Checkout']")).click();
+////      Shipping details
+////        Country
+////        driver.findElement(By.xpath("//input[@placeholder='Select Country']")).sendKeys("Bangladesh");
 
         Actions a = new Actions((driver));
         a.sendKeys( driver.findElement(By.xpath("//input[@placeholder='Select Country']")), "Ban").build().perform();
