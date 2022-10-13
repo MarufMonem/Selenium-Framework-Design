@@ -23,13 +23,34 @@ public class ProductCatalogue extends abstractComponent {
     @FindBy(className="mb-3")
     List<WebElement> products;
 
+    @FindBy(css=".ng-animating")
+    WebElement spinner;
+
     By byProduct = By.className("mb-3");
+//    By addToCart = By.cssSelector()
+    By cartAnimation = By.cssSelector(".ng-animating");
+    By toastMessage = By.xpath("//*[@id='toast-container']");
 
     public List<WebElement> getProductList(){
 //        We can not pass in the page factory elements. It doesnt support By
 //        So we need to create a By object and then pass it
         waitForElementToAppear(byProduct);
         return products;
+    }
+
+    public WebElement getProductByName(String productName){
+        WebElement desiredItem = products.stream()
+                .filter(product-> product
+                        .findElement(By.tagName("b"))
+                        .getText().contains(productName)).findFirst().orElse(null);
+        return desiredItem;
+    }
+
+    public void addProductToCart (String productName){
+        WebElement item = getProductByName(productName);
+        item.findElement(By.cssSelector("button:last-of-type")).click();
+        waitForElementToAppear(cartAnimation);
+        waitForElementToDisappear(spinner);
     }
 
 
@@ -39,9 +60,9 @@ public class ProductCatalogue extends abstractComponent {
 //        loginClick.click();
 //    }
 
-    public void goToApp(){
-        driver.get("https://rahulshettyacademy.com/client/");
-    }
+//    public void goToApp(){
+//        driver.get("https://rahulshettyacademy.com/client/");
+//    }
 
 
 }

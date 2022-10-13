@@ -9,7 +9,6 @@
       <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/abstractPackages/abstractComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/abstractPackages/abstractComponent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/pageObjectModel/ProductCatalogue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/pageObjectModel/ProductCatalogue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/pageObjectModel/StandAloneTest_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/pageObjectModel/StandAloneTest_Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/pageObjectModel/landingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/pageObjectModel/landingPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +50,7 @@
       <recent name="Selenium.pageObjectModel" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.StandAloneTest_Test">
     <configuration name="StandAloneTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Selenium_pageObjectModel.StandAloneTest" />
       <module name="Selenium_Framework_Design" />
@@ -65,8 +64,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StandAloneTest_Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Selenium.pageObjectModel.StandAloneTest_Test" />
+      <module name="Selenium_Framework_Design" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Selenium.pageObjectModel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StandAloneTest_Test" />
         <item itemvalue="Application.StandAloneTest" />
       </list>
     </recent_temporary>
