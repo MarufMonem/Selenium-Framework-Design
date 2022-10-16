@@ -64,7 +64,7 @@ public class StandAloneTest {
         a.sendKeys( driver.findElement(By.xpath("//input[@placeholder='Select Country']")), "Ban").build().perform();
 //        waiting till the suggested results appear
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".list-group-item")));
-        driver.findElement(By.cssSelector(".ta-item:nth-child(2)")).click();
+        driver.findElement(By.cssSelector(".ta-item:nth-child(3)")).click();
         driver.findElement(By.cssSelector(".btnn.action__submit")).click();
         String successMsg = driver.findElement(By.cssSelector(".hero-primary")).getText();
 
