@@ -27,7 +27,7 @@ public class Cart extends abstractComponent {
     @FindBy(css=".cart .items h3")
     List<WebElement> cartItems;
 
-    @FindBy(css="//button[text()='Checkout']")
+    @FindBy(xpath="//button[text()='Checkout']")
     WebElement checkoutButton;
 
 //    @FindBy(css=".btnn.action__submit")
@@ -40,20 +40,9 @@ public class Cart extends abstractComponent {
      cartButton.click();
      return cartItems.stream().anyMatch(item-> item.getText().contains("ZARA"));
  }
- public void checkout(){
-
-//     checkoutButton.click();
-     driver.findElement(By.xpath("//button[text()='Checkout']")).click();
-     Actions a = new Actions((driver));
-     a.sendKeys( driver.findElement(By.xpath("//input[@placeholder='Select Country']")), "Ban").build().perform();
-     waitForElementToAppear(By.cssSelector(".ta-item:nth-child(2)"));
-     driver.findElement(By.cssSelector(".ta-item:nth-child(3)")).click();
-//     System.out.println(driver.findElement(By.cssSelector(".ta-item:nth-child(2)")).getText());
-     driver.findElement(By.cssSelector(".btnn.action__submit")).click();
-     String successMsg = driver.findElement(By.cssSelector(".hero-primary")).getText();
-     Assert.assertTrue(successMsg.contains("THANKYOU"));
-     System.out.println("Done!");
-
+ public void goToCheckout() throws InterruptedException {
+     waitForElementToAppear(By.xpath("//button[text()='Checkout']"));
+     checkoutButton.click();
  }
 
 

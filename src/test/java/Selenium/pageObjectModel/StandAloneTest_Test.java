@@ -1,6 +1,7 @@
 package Selenium.pageObjectModel;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.checkerframework.checker.units.qual.C;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -25,15 +26,18 @@ public class StandAloneTest_Test {
         landingPage lp = new landingPage(driver);
 
         lp.goToApp();
-        lp.loginApplication("maruftest@yahoo.com","Test123456" );
+        ProductCatalogue pc = lp.loginApplication("maruftest@yahoo.com","Test123456" );
 
-        ProductCatalogue pc = new ProductCatalogue(driver);
         List<WebElement> products = pc.getProductList();
         pc.addProductToCart(desiredProduct);
 
         Cart c = new Cart(driver);
         Assert.assertTrue(c.verifyCartItem(desiredProduct));
-        c.checkout();
+        c.goToCheckout();
+//
+        Checkout co = new Checkout(driver);
+        co.checkout();
+
 
         Thread.sleep(10000);
         driver.quit();
