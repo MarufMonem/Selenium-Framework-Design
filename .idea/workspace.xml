@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6960d65-f561-4ac8-8b8a-625a99fb89e2" name="Changes" comment="Refactoring StandAloneTest_Test.java with encapsulation">
+    <list default="true" id="e6960d65-f561-4ac8-8b8a-625a99fb89e2" name="Changes" comment="method renamed (checkout -&gt; submitOrder)">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Selenium/pageObjectModel/Confirmation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/pageObjectModel/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/pageObjectModel/Cart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/pageObjectModel/ProductCatalogue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/pageObjectModel/ProductCatalogue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/pageObjectModel/StandAloneTest_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/pageObjectModel/StandAloneTest_Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/pageObjectModel/landingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/pageObjectModel/landingPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -241,7 +239,21 @@
       <option name="project" value="LOCAL" />
       <updated>1665895891120</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Added a new class to handle checkouts">
+      <created>1665901834904</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1665901834904</updated>
+    </task>
+    <task id="LOCAL-00021" summary="method renamed (checkout -&gt; submitOrder)">
+      <created>1665901955207</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1665901955207</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -277,6 +289,8 @@
     <MESSAGE value="Country selection nth child updated (2 -&gt; 3)" />
     <MESSAGE value="Refactored StandAloneTest_Test.java" />
     <MESSAGE value="Refactoring StandAloneTest_Test.java with encapsulation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactoring StandAloneTest_Test.java with encapsulation" />
+    <MESSAGE value="Added a new class to handle checkouts" />
+    <MESSAGE value="method renamed (checkout -&gt; submitOrder)" />
+    <option name="LAST_COMMIT_MESSAGE" value="method renamed (checkout -&gt; submitOrder)" />
   </component>
 </project>

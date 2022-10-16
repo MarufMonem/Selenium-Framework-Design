@@ -36,8 +36,9 @@ public class StandAloneTest_Test {
         c.goToCheckout();
 //
         Checkout co = new Checkout(driver);
-        co.submitOrder();
+        Confirmation confir = co.submitOrder();
 
+        confir.message();
 
         Thread.sleep(10000);
         driver.quit();
