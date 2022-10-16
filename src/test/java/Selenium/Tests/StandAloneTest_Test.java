@@ -12,6 +12,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
@@ -19,11 +20,11 @@ import java.time.Duration;
 import java.util.List;
 
 public class StandAloneTest_Test extends BaseTest {
+
     @Test
     public  void submitOrder() throws InterruptedException, IOException {
 //        Initial setup
         String desiredProduct = "ZARA COAT 3";
-        landingPage lp = launchApplication();
 
         ProductCatalogue pc = lp.loginApplication("maruftest@yahoo.com","Test123456" );
 
@@ -38,9 +39,6 @@ public class StandAloneTest_Test extends BaseTest {
         Confirmation confir = co.submitOrder();
 
         confir.message();
-
-        Thread.sleep(10000);
-        driver.quit();
     }
 
 }

@@ -4,6 +4,8 @@ import Selenium.pageObjectModel.landingPage;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -13,6 +15,7 @@ import java.util.Properties;
 
 public class BaseTest {
     public WebDriver driver;
+    public landingPage lp;
 
     public WebDriver intializeDriver() throws IOException {
 //        Properties class
@@ -36,11 +39,18 @@ public class BaseTest {
         return driver;
     }
 
+    @BeforeMethod
     public landingPage launchApplication() throws IOException {
         driver = intializeDriver();
         landingPage lp = new landingPage(driver);
         lp.goToApp();
         return lp;
 
+    }
+
+    @AfterMethod
+    public void closeBrowsser() throws InterruptedException {
+        Thread.sleep(6000);
+        driver.close();
     }
 }
