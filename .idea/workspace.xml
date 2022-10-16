@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6960d65-f561-4ac8-8b8a-625a99fb89e2" name="Changes" comment="Created a new package &quot;Tests&quot; that would only contain test classes" />
+    <list default="true" id="e6960d65-f561-4ac8-8b8a-625a99fb89e2" name="Changes" comment="2 files created to handle global properties">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/Resources/GlobalData.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/Resources/GlobalData.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/Tests/TestComponents/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/Tests/TestComponents/BaseTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -263,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665916074801</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="2 files created to handle global properties">
+      <created>1665916284409</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1665916284409</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -278,7 +289,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Selenium and TestNG dependencies added" />
     <MESSAGE value="Webdriver manager dependency added" />
     <MESSAGE value="Dependencies updated and StandAloneTest.java created" />
     <MESSAGE value="Successfully logged in" />
@@ -303,6 +313,7 @@
     <MESSAGE value="method renamed (checkout -&gt; submitOrder)" />
     <MESSAGE value="Created a new confirmation class to handle the messages" />
     <MESSAGE value="Created a new package &quot;Tests&quot; that would only contain test classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created a new package &quot;Tests&quot; that would only contain test classes" />
+    <MESSAGE value="2 files created to handle global properties" />
+    <option name="LAST_COMMIT_MESSAGE" value="2 files created to handle global properties" />
   </component>
 </project>
