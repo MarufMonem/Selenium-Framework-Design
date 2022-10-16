@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6960d65-f561-4ac8-8b8a-625a99fb89e2" name="Changes" comment="method renamed (checkout -&gt; submitOrder)">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Selenium/pageObjectModel/Confirmation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/pageObjectModel/StandAloneTest_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/pageObjectModel/StandAloneTest_Test.java" afterDir="false" />
-    </list>
+    <list default="true" id="e6960d65-f561-4ac8-8b8a-625a99fb89e2" name="Changes" comment="Created a new confirmation class to handle the messages" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -253,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665901955207</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Created a new confirmation class to handle the messages">
+      <created>1665902460873</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1665902460873</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -291,6 +294,7 @@
     <MESSAGE value="Refactoring StandAloneTest_Test.java with encapsulation" />
     <MESSAGE value="Added a new class to handle checkouts" />
     <MESSAGE value="method renamed (checkout -&gt; submitOrder)" />
-    <option name="LAST_COMMIT_MESSAGE" value="method renamed (checkout -&gt; submitOrder)" />
+    <MESSAGE value="Created a new confirmation class to handle the messages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created a new confirmation class to handle the messages" />
   </component>
 </project>
