@@ -1,5 +1,6 @@
 package Selenium.Tests;
 
+import Selenium.Tests.TestComponents.BaseTest;
 import Selenium.pageObjectModel.*;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.checkerframework.checker.units.qual.C;
@@ -11,22 +12,19 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import org.testng.annotations.Test;
 
+import java.io.IOException;
 import java.time.Duration;
 import java.util.List;
 
-public class StandAloneTest_Test {
-    public static void main(String[] args) throws InterruptedException {
+public class StandAloneTest_Test extends BaseTest {
+    @Test
+    public  void submitOrder() throws InterruptedException, IOException {
 //        Initial setup
         String desiredProduct = "ZARA COAT 3";
-        WebDriverManager.chromedriver().setup();
-        WebDriver driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10)); //Implicit wait
-        driver.manage().window().maximize();
-//      Calling the constructor
-        landingPage lp = new landingPage(driver);
+        landingPage lp = launchApplication();
 
-        lp.goToApp();
         ProductCatalogue pc = lp.loginApplication("maruftest@yahoo.com","Test123456" );
 
         List<WebElement> products = pc.getProductList();
