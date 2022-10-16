@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6960d65-f561-4ac8-8b8a-625a99fb89e2" name="Changes" comment="Checkout button implemented">
+    <list default="true" id="e6960d65-f561-4ac8-8b8a-625a99fb89e2" name="Changes" comment="Country selection nth child updated (2 -&gt; 3)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/pageObjectModel/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/pageObjectModel/Cart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/pageObjectModel/ProductCatalogue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/pageObjectModel/ProductCatalogue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/pageObjectModel/StandAloneTest_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/pageObjectModel/StandAloneTest_Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,7 +216,21 @@
       <option name="project" value="LOCAL" />
       <updated>1665633675549</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="StandAloneTest_Test fully modularized">
+      <created>1665893786042</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1665893786042</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Country selection nth child updated (2 -&gt; 3)">
+      <created>1665893837097</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1665893837097</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -251,6 +262,8 @@
     <MESSAGE value="Add to cart option modularized" />
     <MESSAGE value="Cart classes created that verifies if the desired item is present" />
     <MESSAGE value="Checkout button implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="Checkout button implemented" />
+    <MESSAGE value="StandAloneTest_Test fully modularized" />
+    <MESSAGE value="Country selection nth child updated (2 -&gt; 3)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Country selection nth child updated (2 -&gt; 3)" />
   </component>
 </project>
