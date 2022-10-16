@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6960d65-f561-4ac8-8b8a-625a99fb89e2" name="Changes" comment="Created a new confirmation class to handle the messages" />
+    <list default="true" id="e6960d65-f561-4ac8-8b8a-625a99fb89e2" name="Changes" comment="Created a new package &quot;Tests&quot; that would only contain test classes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,12 +46,12 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.StandAloneTest_Test">
-    <configuration name="Selenium.pageObjectModel.StandAloneTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Selenium.pageObjectModel.StandAloneTest" />
+    <configuration name="Selenium.Tests.StandAloneTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Selenium.Tests.StandAloneTest" />
       <module name="Selenium_Framework_Design" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Selenium.pageObjectModel.*" />
+          <option name="PATTERN" value="Selenium.Tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,11 +73,11 @@
       </method>
     </configuration>
     <configuration name="StandAloneTest_Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Selenium.pageObjectModel.StandAloneTest_Test" />
+      <option name="MAIN_CLASS_NAME" value="Selenium.Tests.StandAloneTest_Test" />
       <module name="Selenium_Framework_Design" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Selenium.pageObjectModel.*" />
+          <option name="PATTERN" value="Selenium.Tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,7 +88,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.StandAloneTest_Test" />
-        <item itemvalue="Application.Selenium.pageObjectModel.StandAloneTest" />
+        <item itemvalue="Application.Selenium.Tests.StandAloneTest" />
         <item itemvalue="Application.StandAloneTest" />
       </list>
     </recent_temporary>
@@ -256,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665902460873</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Created a new package &quot;Tests&quot; that would only contain test classes">
+      <created>1665916074801</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1665916074801</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -295,6 +302,7 @@
     <MESSAGE value="Added a new class to handle checkouts" />
     <MESSAGE value="method renamed (checkout -&gt; submitOrder)" />
     <MESSAGE value="Created a new confirmation class to handle the messages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created a new confirmation class to handle the messages" />
+    <MESSAGE value="Created a new package &quot;Tests&quot; that would only contain test classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created a new package &quot;Tests&quot; that would only contain test classes" />
   </component>
 </project>
