@@ -54,15 +54,5 @@ public class ProductCatalogue extends abstractComponent {
     }
 
 
-//    public void loginApplication(String email, String password){
-//        userEmail.sendKeys(email);
-//        userPassword.sendKeys(password);
-//        loginClick.click();
-//    }
-
-//    public void goToApp(){
-//        driver.get("https://rahulshettyacademy.com/client/");
-//    }
-
 
 }

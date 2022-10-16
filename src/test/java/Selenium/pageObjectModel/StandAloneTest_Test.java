@@ -16,11 +16,11 @@ import java.util.List;
 public class StandAloneTest_Test {
     public static void main(String[] args) throws InterruptedException {
 //        Initial setup
-        String desiredProduct = "Zara";
+        String desiredProduct = "ZARA COAT 3";
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10)); //Implicit wait
-
+        driver.manage().window().maximize();
 //      Calling the constructor
         landingPage lp = new landingPage(driver);
 
@@ -30,12 +30,13 @@ public class StandAloneTest_Test {
 
         ProductCatalogue pc = new ProductCatalogue(driver);
         List<WebElement> products = pc.getProductList();
-        pc.addProductToCart("ZARA");
+        pc.addProductToCart(desiredProduct);
 
         Cart c = new Cart(driver);
-        boolean confirmation = c.verifyCartItem(desiredProduct);
-        Assert.assertTrue(confirmation);
+//        boolean confirmation = c.verifyCartItem(desiredProduct);
+        Assert.assertTrue(c.verifyCartItem(desiredProduct));
 
+        c.checkout();
 
 
 
@@ -47,7 +48,7 @@ public class StandAloneTest_Test {
 ////        Login
 //        driver.findElement(By.id("login")).click();
 //
-        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(5));
+//        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(5));
 ////        Waiting until all the products are visible
 //        wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("mb-3")));
 //
@@ -79,16 +80,17 @@ public class StandAloneTest_Test {
 ////        Country
 ////        driver.findElement(By.xpath("//input[@placeholder='Select Country']")).sendKeys("Bangladesh");
 
-        Actions a = new Actions((driver));
-        a.sendKeys( driver.findElement(By.xpath("//input[@placeholder='Select Country']")), "Ban").build().perform();
-//        waiting till the suggested results appear
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".list-group-item")));
-        driver.findElement(By.cssSelector(".ta-item:nth-child(2)")).click();
-        driver.findElement(By.cssSelector(".btnn.action__submit")).click();
-        String successMsg = driver.findElement(By.cssSelector(".hero-primary")).getText();
+//        Actions a = new Actions((driver));
+//        a.sendKeys( driver.findElement(By.xpath("//input[@placeholder='Select Country']")), "Ban").build().perform();
+////        waiting till the suggested results appear
+//        wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".list-group-item")));
+//        driver.findElement(By.cssSelector(".ta-item:nth-child(2)")).click();
+//        driver.findElement(By.cssSelector(".btnn.action__submit")).click();
+//        String successMsg = driver.findElement(By.cssSelector(".hero-primary")).getText();
+//
+//        Assert.assertTrue(successMsg.contains("THANKYOU"));
+//        System.out.println("Done!");
 
-        Assert.assertTrue(successMsg.contains("THANKYOU"));
-        System.out.println("Done!");
 
 
         Thread.sleep(10000);
