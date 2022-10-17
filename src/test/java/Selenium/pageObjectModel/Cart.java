@@ -38,7 +38,7 @@ public class Cart extends abstractComponent {
 
  public boolean verifyCartItem(String desiredProduct){
      cartButton.click();
-     return cartItems.stream().anyMatch(item-> item.getText().contains("ZARA"));
+     return cartItems.stream().anyMatch(item-> item.getText().contains(desiredProduct));
  }
  public void goToCheckout() throws InterruptedException {
      waitForElementToAppear(By.xpath("//button[text()='Checkout']"));
