@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="Submit Order">
+        <classes>
+            <class name="Selenium.Tests.ModularizedTest">
+                <methods><include name="submitOrder"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Error Validation">
+        <classes>
+            <class name="Selenium.Tests.ErrorValidation">
+                <methods>
+                    <include name="loginErrorValidation"/>
+                    <include name="productErrorValidation"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
