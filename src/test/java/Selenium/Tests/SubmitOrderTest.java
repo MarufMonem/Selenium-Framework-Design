@@ -1,7 +1,10 @@
 package Selenium.Tests;
 
 import Selenium.TestComponents.BaseTest;
-import Selenium.pageObjectModel.*;
+import Selenium.pageObjectModel.Cart;
+import Selenium.pageObjectModel.Checkout;
+import Selenium.pageObjectModel.Confirmation;
+import Selenium.pageObjectModel.ProductCatalogue;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -9,14 +12,14 @@ import org.testng.annotations.Test;
 import java.io.IOException;
 import java.util.List;
 
-public class ModularizedTest extends BaseTest {
+public class SubmitOrderTest extends BaseTest {
 
     @Test
-    public  void submitOrder() throws InterruptedException, IOException {
+    public void submitOrder() throws InterruptedException, IOException {
 //        Initial setup
         String desiredProduct = "ZARA COAT 3";
 
-        ProductCatalogue pc = lp.loginApplication("maruftest@yahoo.com","Test123456" );
+        ProductCatalogue pc = lp.loginApplication("maruftest@yahoo.com", "Test123456");
 
         List<WebElement> products = pc.getProductList();
         pc.addProductToCart(desiredProduct);

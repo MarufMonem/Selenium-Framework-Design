@@ -3,7 +3,7 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="Submit Order">
         <classes>
-            <class name="Selenium.Tests.ModularizedTest">
+            <class name="Selenium.Tests.SubmitOrderTest">
                 <methods><include name="submitOrder"/>
                 </methods>
             </class>
