@@ -25,8 +25,16 @@ public class landingPage extends abstractComponent {
     @FindBy(id="userPassword")
     WebElement userPassword;
 
+    @FindBy(css="[class*='ng-trigger-flyInOut']")
+    WebElement errorMsg;
+
     @FindBy(id="login")
     WebElement loginClick;
+
+    public String getErrorMsg(){
+        waitForElementToAppear(errorMsg);
+        return errorMsg.getText();
+    }
 
     public ProductCatalogue loginApplication(String email, String password){
         userEmail.sendKeys(email);

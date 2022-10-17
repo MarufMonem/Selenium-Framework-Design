@@ -1,4 +1,4 @@
-package Selenium.Tests.TestComponents;
+package Selenium.TestComponents;
 
 import Selenium.pageObjectModel.landingPage;
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -40,16 +40,16 @@ public class BaseTest {
     }
 
     @BeforeMethod
-    public landingPage launchApplication() throws IOException {
+    public void launchApplication() throws IOException {
         driver = intializeDriver();
-        landingPage lp = new landingPage(driver);
+        lp = new landingPage(driver);
         lp.goToApp();
-        return lp;
-
     }
 
+
     @AfterMethod
-    public void closeBrowsser() throws InterruptedException {
+    public void closeBrowser() throws InterruptedException {
+        System.out.println("Closing browser...");
         Thread.sleep(6000);
         driver.close();
     }

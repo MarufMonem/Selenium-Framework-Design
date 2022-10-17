@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6960d65-f561-4ac8-8b8a-625a99fb89e2" name="Changes" comment="Removed main and replaced with testNG">
+    <list default="true" id="e6960d65-f561-4ac8-8b8a-625a99fb89e2" name="Changes" comment="Error validation for login failure implemented">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Selenium/Tests/ErrorValidation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/Tests/StandAloneTest_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/Tests/StandAloneTest_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/Tests/TestComponents/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/TestComponents/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/abstractPackages/abstractComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/abstractPackages/abstractComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/pageObjectModel/landingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/pageObjectModel/landingPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,10 +48,24 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Selenium.Tests" />
       <recent name="Selenium.pageObjectModel" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.StandAloneTest_Test.submitOrder">
+  <component name="RunManager" selected="TestNG.ErrorValidation.submitOrder">
+    <configuration name="ModularizedTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Selenium.Tests.ModularizedTest" />
+      <module name="Selenium_Framework_Design" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Selenium.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Selenium.Tests.StandAloneTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Selenium.Tests.StandAloneTest" />
       <module name="Selenium_Framework_Design" />
@@ -75,20 +92,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StandAloneTest_Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Selenium.Tests.StandAloneTest_Test" />
-      <module name="Selenium_Framework_Design" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Selenium.Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StandAloneTest_Test.submitOrder" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ErrorValidation.submitOrder" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium_Framework_Design" />
       <extension name="coverage">
         <pattern>
@@ -97,7 +101,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Selenium.Tests" />
-      <option name="MAIN_CLASS_NAME" value="Selenium.Tests.StandAloneTest_Test" />
+      <option name="MAIN_CLASS_NAME" value="Selenium.Tests.ErrorValidation" />
+      <option name="METHOD_NAME" value="submitOrder" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ModularizedTest.submitOrder" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium_Framework_Design" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Selenium.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Selenium.Tests" />
+      <option name="MAIN_CLASS_NAME" value="Selenium.Tests.ModularizedTest" />
       <option name="METHOD_NAME" value="submitOrder" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -108,8 +130,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.StandAloneTest_Test.submitOrder" />
-        <item itemvalue="Application.StandAloneTest_Test" />
+        <item itemvalue="TestNG.ErrorValidation.submitOrder" />
+        <item itemvalue="TestNG.ModularizedTest.submitOrder" />
+        <item itemvalue="Application.ModularizedTest" />
         <item itemvalue="Application.Selenium.Tests.StandAloneTest" />
         <item itemvalue="Application.StandAloneTest" />
       </list>
@@ -306,7 +329,21 @@
       <option name="project" value="LOCAL" />
       <updated>1665917526628</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Removed all the boilerplate codes from the StandAloneTest_Test.java connected all the methods">
+      <created>1665918095800</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1665918095800</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Error validation for login failure implemented">
+      <created>1665921931835</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1665921931835</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -321,9 +358,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Successfully logged in" />
-    <MESSAGE value="Finding desired elements using java streams and adding item to cart" />
-    <MESSAGE value="Added wait for the animation and toast message. Added code for cart button." />
     <MESSAGE value="Added assertion to verify the desired item is in cart or not." />
     <MESSAGE value="Selected country using actions class and placed order" />
     <MESSAGE value="Asserting the confirmation page" />
@@ -346,6 +380,9 @@
     <MESSAGE value="2 files created to handle global properties" />
     <MESSAGE value="BaseTest.java can now handle chrome setup" />
     <MESSAGE value="Removed main and replaced with testNG" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed main and replaced with testNG" />
+    <MESSAGE value="Removed all the boilerplate codes from the StandAloneTest_Test.java connected all the methods" />
+    <MESSAGE value="Renamed the standalone test file" />
+    <MESSAGE value="Error validation for login failure implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="Error validation for login failure implemented" />
   </component>
 </project>
