@@ -16,6 +16,7 @@ import java.util.Properties;
 public class BaseTest {
     public WebDriver driver;
     public landingPage lp;
+    public String desiredProduct = "ZARA COAT 3";
 
     public WebDriver intializeDriver() throws IOException {
 //        Properties class
