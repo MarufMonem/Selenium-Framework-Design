@@ -14,7 +14,7 @@ import java.util.List;
 
 public class ErrorValidation extends BaseTest {
 
-    @Test
+    @Test(groups = {"ErrorHandling"})
     public  void loginErrorValidation() throws InterruptedException, IOException {
 
         ProductCatalogue pc = lp.loginApplication("maruftest@yahoo.com","Test1234567" );

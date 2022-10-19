@@ -40,7 +40,7 @@ public class BaseTest {
         return driver;
     }
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void launchApplication() throws IOException {
         driver = intializeDriver();
         lp = new landingPage(driver);
@@ -48,7 +48,7 @@ public class BaseTest {
     }
 
 
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     public void closeBrowser() throws InterruptedException {
         System.out.println("Closing browser...");
         Thread.sleep(6000);
