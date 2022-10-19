@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite">
-    <test verbose="2" preserve-order="true" name="Submit Order">
+<suite parallel = "tests" name="All Test Suite">
+    <test thread-count="5" verbose="2" name="Submit Order">
         <classes>
             <class name="Selenium.Tests.SubmitOrderTest">
-                <methods><include name="submitOrder"/>
+                <methods>
+                    <include name="submitOrder"/>
                 </methods>
             </class>
         </classes>

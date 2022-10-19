@@ -30,11 +30,6 @@ public class Cart extends abstractComponent {
     @FindBy(xpath="//button[text()='Checkout']")
     WebElement checkoutButton;
 
-//    @FindBy(css=".btnn.action__submit")
-//    WebElement submitButton;
-//    By searchSuggestion = By.cssSelector(".list-group-item");
-//    By suggestedItem = By.cssSelector(".ta-item:nth-child(2)");
-
 
  public boolean verifyCartItem(String desiredProduct){
      cartButton.click();

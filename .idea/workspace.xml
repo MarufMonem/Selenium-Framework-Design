@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6960d65-f561-4ac8-8b8a-625a99fb89e2" name="Changes" comment="Order page created">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Selenium/pageObjectModel/Order.java" afterDir="false" />
+    <list default="true" id="e6960d65-f561-4ac8-8b8a-625a99fb89e2" name="Changes" comment="Parallel testing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/TestComponents/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/TestComponents/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/Tests/SubmitOrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/Tests/SubmitOrderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/pageObjectModel/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/pageObjectModel/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +50,7 @@
       <recent name="Selenium.Tests" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SubmitOrderTest.OrderHistoryTest">
+  <component name="RunManager" selected="TestNG.X:/Self improvement/Selenium Udemy/Code/Selenium_Framework_Design/testng.xml">
     <configuration name="ErrorValidation.productErrorValidation" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium_Framework_Design" />
       <extension name="coverage">
@@ -136,10 +135,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SubmitOrderTest.OrderHistoryTest" />
-        <item itemvalue="TestNG.ErrorValidation.productErrorValidation" />
         <item itemvalue="TestNG.X:/Self improvement/Selenium Udemy/Code/Selenium_Framework_Design/testng.xml" />
         <item itemvalue="TestNG.SubmitOrderTest.submitOrder" />
+        <item itemvalue="TestNG.SubmitOrderTest.OrderHistoryTest" />
+        <item itemvalue="TestNG.ErrorValidation.productErrorValidation" />
         <item itemvalue="TestNG.ErrorValidation.submitOrder" />
       </list>
     </recent_temporary>
@@ -377,7 +376,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665978488827</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Updated the order page with 2 new methods to navigate to the page and verify orders">
+      <created>1666151951887</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1666151951887</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -392,8 +398,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created a class to handle the product page" />
-    <MESSAGE value="Created a class to handle the resuable items" />
     <MESSAGE value="Add to cart option modularized" />
     <MESSAGE value="Cart classes created that verifies if the desired item is present" />
     <MESSAGE value="Checkout button implemented" />
@@ -417,6 +421,8 @@
     <MESSAGE value="typo fixed in the verifyCartItem argument" />
     <MESSAGE value="Renamed ModularizedTest.java to SubmitOrderTest" />
     <MESSAGE value="Order page created" />
-    <option name="LAST_COMMIT_MESSAGE" value="Order page created" />
+    <MESSAGE value="Updated the order page with 2 new methods to navigate to the page and verify orders" />
+    <MESSAGE value="Parallel testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Parallel testing" />
   </component>
 </project>
