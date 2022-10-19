@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6960d65-f561-4ac8-8b8a-625a99fb89e2" name="Changes" comment="New error handling test suite created (XML)">
+    <list default="true" id="e6960d65-f561-4ac8-8b8a-625a99fb89e2" name="Changes" comment="refactored code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/TestComponents/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/TestComponents/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/TestSuites/ErrorValidation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/TestSuites/ErrorValidation.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/Tests/ErrorValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/Tests/ErrorValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/TestSuites/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/TestSuites/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,25 +52,7 @@
       <recent name="Selenium.Tests" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.X:/Self improvement/Selenium Udemy/Code/Selenium_Framework_Design/src/test/java/Selenium/TestSuites/ErrorValidation.xml">
-    <configuration name="ErrorValidation.productErrorValidation" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Selenium_Framework_Design" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Selenium.Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Selenium.Tests" />
-      <option name="MAIN_CLASS_NAME" value="Selenium.Tests.ErrorValidation" />
-      <option name="METHOD_NAME" value="productErrorValidation" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.X:/Self improvement/Selenium Udemy/Code/Selenium_Framework_Design/src/test/java/Selenium/TestSuites/testng.xml">
     <configuration name="SubmitOrderTest.OrderHistoryTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium_Framework_Design" />
       <extension name="coverage">
@@ -119,6 +99,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="X:/Self improvement/Selenium Udemy/Code/Selenium_Framework_Design/src/test/java/Selenium/TestSuites/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium_Framework_Design" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/Selenium/TestSuites/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="X:/Self improvement/Selenium Udemy/Code/Selenium_Framework_Design/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium_Framework_Design" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
@@ -131,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.X:/Self improvement/Selenium Udemy/Code/Selenium_Framework_Design/src/test/java/Selenium/TestSuites/testng.xml" />
         <item itemvalue="TestNG.X:/Self improvement/Selenium Udemy/Code/Selenium_Framework_Design/src/test/java/Selenium/TestSuites/ErrorValidation.xml" />
         <item itemvalue="TestNG.X:/Self improvement/Selenium Udemy/Code/Selenium_Framework_Design/testng.xml" />
         <item itemvalue="TestNG.SubmitOrderTest.submitOrder" />
         <item itemvalue="TestNG.SubmitOrderTest.OrderHistoryTest" />
-        <item itemvalue="TestNG.ErrorValidation.productErrorValidation" />
       </list>
     </recent_temporary>
   </component>
@@ -386,7 +376,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666153604574</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="refactored code">
+      <created>1666155578571</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1666155578571</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -401,7 +398,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Cart classes created that verifies if the desired item is present" />
     <MESSAGE value="Checkout button implemented" />
     <MESSAGE value="StandAloneTest_Test fully modularized" />
     <MESSAGE value="Country selection nth child updated (2 -&gt; 3)" />
@@ -426,6 +422,7 @@
     <MESSAGE value="Updated the order page with 2 new methods to navigate to the page and verify orders" />
     <MESSAGE value="Parallel testing" />
     <MESSAGE value="New error handling test suite created (XML)" />
-    <option name="LAST_COMMIT_MESSAGE" value="New error handling test suite created (XML)" />
+    <MESSAGE value="refactored code" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactored code" />
   </component>
 </project>

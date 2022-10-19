@@ -1,22 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite parallel = "tests" name="All Test Suite">
-    <test thread-count="5" verbose="2" name="Submit Order">
+    <test thread-count="5" name="Submit Order">
         <classes>
             <class name="Selenium.Tests.SubmitOrderTest">
-                <methods>
-                    <include name="submitOrder"/>
-                </methods>
             </class>
         </classes>
     </test>
-    <test name="Error Validation">
+    <test thread-count="5" name="Error Validation">
         <classes>
             <class name="Selenium.Tests.ErrorValidation">
-                <methods>
-                    <include name="loginErrorValidation"/>
-                    <include name="productErrorValidation"/>
-                </methods>
             </class>
         </classes>
     </test>
