@@ -1,0 +1,13 @@
+[
+  {
+    "email":"maruftest@yahoo.com",
+    "password":"Test123456",
+    "desiredProduct":"ZARA COAT 3"
+  },
+
+  {
+    "email":"mhetty@gmail.com",
+    "password":"Iamking@000",
+    "desiredProduct":"ADIDAS ORIGINAL"
+  }
+  ]
