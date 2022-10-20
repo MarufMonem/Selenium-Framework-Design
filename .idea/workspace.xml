@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6960d65-f561-4ac8-8b8a-625a99fb89e2" name="Changes" comment="Updated data provider method to use hashmaps" />
+    <list default="true" id="e6960d65-f561-4ac8-8b8a-625a99fb89e2" name="Changes" comment="Data added in the json file">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Selenium/Data/DataReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/Tests/SubmitOrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/Tests/SubmitOrderTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -397,7 +402,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666239361984</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Created a package to handle data">
+      <created>1666239463370</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1666239463370</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Data added in the json file">
+      <created>1666239779777</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1666239779777</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -412,8 +431,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Refactored StandAloneTest_Test.java" />
-    <MESSAGE value="Refactoring StandAloneTest_Test.java with encapsulation" />
     <MESSAGE value="Added a new class to handle checkouts" />
     <MESSAGE value="method renamed (checkout -&gt; submitOrder)" />
     <MESSAGE value="Created a new confirmation class to handle the messages" />
@@ -437,6 +454,8 @@
     <MESSAGE value="refactored main test XML" />
     <MESSAGE value="Added a data provider annotation" />
     <MESSAGE value="Updated data provider method to use hashmaps" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated data provider method to use hashmaps" />
+    <MESSAGE value="Created a package to handle data" />
+    <MESSAGE value="Data added in the json file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Data added in the json file" />
   </component>
 </project>

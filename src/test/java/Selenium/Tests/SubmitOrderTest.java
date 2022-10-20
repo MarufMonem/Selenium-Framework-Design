@@ -42,20 +42,20 @@ public class SubmitOrderTest extends BaseTest {
         Assert.assertTrue(result);
 
     }
-    @DataProvider
-    public Object [] [] getData(){
-        HashMap<String,String> map = new HashMap<>();
-        map.put("email","maruftest@yahoo.com" );
-        map.put("password","Test123456" );
-        map.put("desiredProduct","ZARA COAT 3" );
-
-        HashMap<String,String> map2 = new HashMap<>();
-        map2.put("email","mhetty@gmail.com" );
-        map2.put("password","Iamking@000" );
-        map2.put("desiredProduct","ADIDAS ORIGINAL" );
-
-        return new Object[] [] {{map}, {map2}};
-    }
+//    @DataProvider
+//    public Object [] [] getData(){
+//        HashMap<String,String> map = new HashMap<>();
+//        map.put("email","maruftest@yahoo.com" );
+//        map.put("password","Test123456" );
+//        map.put("desiredProduct","ZARA COAT 3" );
+//
+//        HashMap<String,String> map2 = new HashMap<>();
+//        map2.put("email","mhetty@gmail.com" );
+//        map2.put("password","Iamking@000" );
+//        map2.put("desiredProduct","ADIDAS ORIGINAL" );
+//
+//        return new Object[] [] {{map}, {map2}};
+//    }
 
 //    Another way
 //@DataProvider
