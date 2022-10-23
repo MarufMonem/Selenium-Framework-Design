@@ -46,8 +46,7 @@ public class SubmitOrderTest extends BaseTest {
 //    JSON
     @DataProvider
     public Object [] [] getData() throws IOException {
-        List<HashMap<String, String>> data =  getJsonDataToMap(System.getProperty("user.dir" + "\\src\\test\\java\\Selenium\\Data\\PurchaseOrder.json")); //return a list of hashmaps
-
+        List<HashMap<String, String>> data =  getJsonDataToMap(System.getProperty("user.dir") + "\\src\\test\\java\\Selenium\\Data\\PurchaseOrder.json"); //return a list of hashmaps
         return new Object[] [] {{data.get(0)}, {data.get(1)}};
     }
 
