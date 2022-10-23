@@ -42,6 +42,19 @@ public class SubmitOrderTest extends BaseTest {
         Assert.assertTrue(result);
 
     }
+
+//    JSON
+    @DataProvider
+    public Object [] [] getData() throws IOException {
+        List<HashMap<String, String>> data =  getJsonDataToMap(System.getProperty("user.dir" + "\\src\\test\\java\\Selenium\\Data\\PurchaseOrder.json")); //return a list of hashmaps
+
+        return new Object[] [] {{data.get(0)}, {data.get(1)}};
+    }
+
+
+
+
+//    hashmap
 //    @DataProvider
 //    public Object [] [] getData(){
 //        HashMap<String,String> map = new HashMap<>();
@@ -57,7 +70,7 @@ public class SubmitOrderTest extends BaseTest {
 //        return new Object[] [] {{map}, {map2}};
 //    }
 
-//    Another way
+//    Arrays
 //@DataProvider
 //public Object [] [] getData(){
 //    return new Object[] [] {{"maruftest@yahoo.com", "Test123456", "ZARA COAT 3"}, {"shetty@gmail.com", "Iamking@000", "ADIDAS ORIGINAL"}};
