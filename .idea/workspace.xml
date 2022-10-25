@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6960d65-f561-4ac8-8b8a-625a99fb89e2" name="Changes" comment="Fixed typos and refactored code">
+    <list default="true" id="e6960d65-f561-4ac8-8b8a-625a99fb89e2" name="Changes" comment="Screenshot method created">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/Tests/SubmitOrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/Tests/SubmitOrderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -435,7 +435,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666510361317</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Screenshot method created">
+      <created>1666511842458</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1666511842458</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -450,7 +457,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created a new package &quot;Tests&quot; that would only contain test classes" />
     <MESSAGE value="2 files created to handle global properties" />
     <MESSAGE value="BaseTest.java can now handle chrome setup" />
     <MESSAGE value="Removed main and replaced with testNG" />
@@ -475,6 +481,7 @@
     <MESSAGE value="Data reader class created to parse the json data" />
     <MESSAGE value="getJsonDataToMap moved to baseTest and connected all the ends." />
     <MESSAGE value="Fixed typos and refactored code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed typos and refactored code" />
+    <MESSAGE value="Screenshot method created" />
+    <option name="LAST_COMMIT_MESSAGE" value="Screenshot method created" />
   </component>
 </project>
