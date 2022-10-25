@@ -79,16 +79,7 @@ public class SubmitOrderTest extends BaseTest {
 //    return new Object[] [] {{"maruftest@yahoo.com", "Test123456", "ZARA COAT 3"}, {"shetty@gmail.com", "Iamking@000", "ADIDAS ORIGINAL"}};
 //}
 
-//    returning the path of the screenshot in the local system
-public String getScreenShot(String testCaseName) throws IOException {
-   TakesScreenshot ts = (TakesScreenshot)driver;
-   File source = ts.getScreenshotAs(OutputType.FILE);
-   File file = new File(System.getProperty("user.dir") + "//reports//" + testCaseName +  ".png") ;
-   FileUtils.copyFile(source,file );
-   return System.getProperty("user.dir") + "//reports//" + testCaseName +  ".png";
-}
 
-//Extent reports
 
 
 }
