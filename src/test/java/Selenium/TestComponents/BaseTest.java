@@ -32,7 +32,7 @@ public class BaseTest {
         Properties prop = new Properties();
         FileInputStream fis = new FileInputStream(System.getProperty("user.dir") + "\\src\\test\\java\\Selenium\\Resources\\GlobalData.properties");
         prop.load(fis);
-       String browserName =  prop.getProperty("browser");
+        String browserName =  prop.getProperty("browser");
 
 //        Chrome
         if(browserName.equalsIgnoreCase("chrome")) {
@@ -76,7 +76,7 @@ public class BaseTest {
         driver.close();
     }
 
-    public String getScreenShot(String testCaseName) throws IOException {
+    public String getScreenShot(String testCaseName, WebDriver driver) throws IOException {
         TakesScreenshot ts = (TakesScreenshot)driver;
         File source = ts.getScreenshotAs(OutputType.FILE);
         File file = new File(System.getProperty("user.dir") + "//reports//" + testCaseName +  ".png") ;
