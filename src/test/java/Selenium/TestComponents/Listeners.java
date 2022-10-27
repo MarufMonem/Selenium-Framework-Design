@@ -17,7 +17,7 @@ public class Listeners extends BaseTest implements ITestListener {
     ExtentTest test;
     @Override
     public void onTestStart(ITestResult result) {
-        extentR.createTest(result.getMethod().getMethodName());
+        test = extentR.createTest(result.getMethod().getMethodName());
     }
 
     @Override
@@ -28,7 +28,7 @@ public class Listeners extends BaseTest implements ITestListener {
     @Override
     public void onTestFailure(ITestResult result) {
 //        test.log(Status.FAIL, "Test Failed");
-        test.fail(result.getThrowable());
+         test.fail(result.getThrowable());
 
         try {
 //            Video 172 - 10.55

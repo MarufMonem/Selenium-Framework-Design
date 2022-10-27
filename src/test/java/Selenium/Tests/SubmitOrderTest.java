@@ -25,9 +25,10 @@ public class SubmitOrderTest extends BaseTest {
         ProductCatalogue pc = lp.loginApplication(map.get("email"), map.get("password"));
 
         List<WebElement> products = pc.getProductList();
-        pc.addProductToCart(desiredProduct);
+        pc.addProductToCart(map.get("desiredProduct"));
 
         Cart c = new Cart(driver);
+        System.out.println(map.get("desiredProduct"));
         Assert.assertTrue(c.verifyCartItem(map.get("desiredProduct")));
         c.goToCheckout();
 //

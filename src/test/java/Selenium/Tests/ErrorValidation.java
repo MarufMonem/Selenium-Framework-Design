@@ -33,7 +33,7 @@ public class ErrorValidation extends BaseTest {
         pc.addProductToCart(desiredProduct);
 
         Cart c = new Cart(driver);
-        Assert.assertFalse(c.verifyCartItem("ZARA COAT 33"));
+        Assert.assertFalse(c.verifyCartItem("ZARA COAT 3"));
     }
 
 }

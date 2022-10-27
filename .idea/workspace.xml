@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6960d65-f561-4ac8-8b8a-625a99fb89e2" name="Changes" comment="moved getScreenShot method from SubmitOrderTest to BaseTest.java">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Selenium/TestComponents/Listeners.java" afterDir="false" />
+    <list default="true" id="e6960d65-f561-4ac8-8b8a-625a99fb89e2" name="Changes" comment="Listeners and extent reports setup completed">
+      <change afterPath="$PROJECT_DIR$/Extent Reports/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/productErrorValidation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/submitOrder.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/Resources/ExtentReporterNG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/Resources/ExtentReporterNG.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/TestComponents/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/TestComponents/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/Data/PurchaseOrder.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/Data/PurchaseOrder.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/TestComponents/Listeners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/TestComponents/Listeners.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/TestSuites/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/TestSuites/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/Tests/ErrorValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/Tests/ErrorValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/Tests/SubmitOrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/Tests/SubmitOrderTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,13 +34,16 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2FKiTDX4nREyeEtozVqVTEdeYdp" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
@@ -59,7 +66,7 @@
       <recent name="Selenium.Tests" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.X:/Self improvement/Selenium Udemy/Code/Selenium_Framework_Design/src/test/java/Selenium/TestSuites/Purchase.xml">
+  <component name="RunManager" selected="TestNG.X:/Self improvement/Selenium Udemy/Code/Selenium_Framework_Design/src/test/java/Selenium/TestSuites/testng.xml">
     <configuration name="SubmitOrderTest.submitOrder" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium_Framework_Design" />
       <extension name="coverage">
@@ -120,10 +127,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.X:/Self improvement/Selenium Udemy/Code/Selenium_Framework_Design/src/test/java/Selenium/TestSuites/Purchase.xml" />
         <item itemvalue="TestNG.X:/Self improvement/Selenium Udemy/Code/Selenium_Framework_Design/src/test/java/Selenium/TestSuites/testng.xml" />
-        <item itemvalue="TestNG.X:/Self improvement/Selenium Udemy/Code/Selenium_Framework_Design/src/test/java/Selenium/TestSuites/ErrorValidation.xml" />
         <item itemvalue="TestNG.X:/Self improvement/Selenium Udemy/Code/Selenium_Framework_Design/testng.xml" />
+        <item itemvalue="TestNG.X:/Self improvement/Selenium Udemy/Code/Selenium_Framework_Design/src/test/java/Selenium/TestSuites/Purchase.xml" />
+        <item itemvalue="TestNG.X:/Self improvement/Selenium Udemy/Code/Selenium_Framework_Design/src/test/java/Selenium/TestSuites/ErrorValidation.xml" />
         <item itemvalue="TestNG.SubmitOrderTest.submitOrder" />
       </list>
     </recent_temporary>
@@ -466,7 +473,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666670029942</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Listeners and extent reports setup completed">
+      <created>1666671558641</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1666671558641</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -481,8 +495,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Removed all the boilerplate codes from the StandAloneTest_Test.java connected all the methods" />
-    <MESSAGE value="Renamed the standalone test file" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Error validation for login failure implemented" />
     <MESSAGE value="Code refactoring" />
     <MESSAGE value="Added product error validation" />
@@ -506,6 +519,8 @@
     <MESSAGE value="Added extent report dependency" />
     <MESSAGE value="ExtentReporterNG porter class created and extent report configured" />
     <MESSAGE value="moved getScreenShot method from SubmitOrderTest to BaseTest.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="moved getScreenShot method from SubmitOrderTest to BaseTest.java" />
+    <MESSAGE value="Listeners and extentReports setup completed" />
+    <MESSAGE value="Listeners and extent reports setup completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Listeners and extent reports setup completed" />
   </component>
 </project>
