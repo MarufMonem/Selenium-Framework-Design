@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6960d65-f561-4ac8-8b8a-625a99fb89e2" name="Changes" comment="Listeners and extent reports setup completed">
-      <change afterPath="$PROJECT_DIR$/Extent Reports/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/productErrorValidation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/submitOrder.png" afterDir="false" />
+    <list default="true" id="e6960d65-f561-4ac8-8b8a-625a99fb89e2" name="Changes" comment="Fixed typos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/Data/PurchaseOrder.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/Data/PurchaseOrder.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/TestComponents/Listeners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/TestComponents/Listeners.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extent Reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Extent Reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/productErrorValidation.png" beforeDir="false" afterPath="$PROJECT_DIR$/reports/productErrorValidation.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/submitOrder.png" beforeDir="false" afterPath="$PROJECT_DIR$/reports/submitOrder.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/TestSuites/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/TestSuites/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/Tests/ErrorValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/Tests/ErrorValidation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/Tests/SubmitOrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/Tests/SubmitOrderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/pageObjectModel/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/pageObjectModel/Cart.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -480,7 +478,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666671558641</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Fixed typos">
+      <created>1666882477560</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1666882477560</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -496,7 +501,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Error validation for login failure implemented" />
     <MESSAGE value="Code refactoring" />
     <MESSAGE value="Added product error validation" />
     <MESSAGE value="TestNG XML created" />
@@ -521,6 +525,7 @@
     <MESSAGE value="moved getScreenShot method from SubmitOrderTest to BaseTest.java" />
     <MESSAGE value="Listeners and extentReports setup completed" />
     <MESSAGE value="Listeners and extent reports setup completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Listeners and extent reports setup completed" />
+    <MESSAGE value="Fixed typos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed typos" />
   </component>
 </project>

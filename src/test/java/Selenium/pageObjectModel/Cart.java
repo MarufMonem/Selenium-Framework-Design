@@ -32,6 +32,7 @@ public class Cart extends abstractComponent {
 
 
  public boolean verifyCartItem(String desiredProduct){
+//     waitForElementToAppear(checkoutButton);
      cartButton.click();
      return cartItems.stream().anyMatch(item-> item.getText().contains(desiredProduct));
  }
