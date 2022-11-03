@@ -1,4 +1,4 @@
-package Selenium.TestComponents;
+package Selenium.Data.TestComponents;
 
 import Selenium.pageObjectModel.landingPage;
 import com.fasterxml.jackson.core.type.TypeReference;

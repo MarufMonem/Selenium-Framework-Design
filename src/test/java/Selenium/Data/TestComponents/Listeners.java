@@ -1,4 +1,4 @@
-package Selenium.TestComponents;
+package Selenium.Data.TestComponents;
 
 import Selenium.Resources.ExtentReporterNG;
 import com.aventstack.extentreports.ExtentReports;
@@ -15,20 +15,25 @@ public class Listeners extends BaseTest implements ITestListener {
 
     ExtentReports extentR = ExtentReporterNG.getReportObject();
     ExtentTest test;
+
+//To handle the concurrency issues involving parallel test runs.
+//    Each variable initialization would be done in it own thread
+    ThreadLocal<ExtentTest> extentTest = new ThreadLocal();
     @Override
     public void onTestStart(ITestResult result) {
         test = extentR.createTest(result.getMethod().getMethodName());
+        extentTest.set(test);
     }
 
     @Override
     public void onTestSuccess(ITestResult result) {
-        test.log(Status.PASS, "Test Passed");
+        extentTest.get().log(Status.PASS, "Test Passed");
     }
 
     @Override
     public void onTestFailure(ITestResult result) {
-//        test.log(Status.FAIL, "Test Failed");
-         test.fail(result.getThrowable());
+//        extentTest.get().log(Status.FAIL, "Test Failed");
+         extentTest.get().fail(result.getThrowable());
 
         try {
 //            Video 172 - 10.55
@@ -46,7 +51,7 @@ public class Listeners extends BaseTest implements ITestListener {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-        test.addScreenCaptureFromPath(screenShotPath, result.getMethod().getMethodName());
+        extentTest.get().addScreenCaptureFromPath(screenShotPath, result.getMethod().getMethodName());
 
     }
 
