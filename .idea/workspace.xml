@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6960d65-f561-4ac8-8b8a-625a99fb89e2" name="Changes" comment="Retry mechanism added">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="e6960d65-f561-4ac8-8b8a-625a99fb89e2" name="Changes" comment="Running suites using maven">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Extent Reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Extent Reports/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/loginErrorValidation.png" beforeDir="false" afterPath="$PROJECT_DIR$/reports/loginErrorValidation.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/Tests/ErrorValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/Tests/ErrorValidation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,13 +159,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664247183828</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Dependencies updated and StandAloneTest.java created">
-      <created>1664345469040</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1664345469040</updated>
     </task>
     <task id="LOCAL-00004" summary="Successfully logged in">
       <created>1664345771148</created>
@@ -504,7 +496,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667453329560</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Running suites using maven">
+      <created>1667716556675</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1667716556675</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -520,7 +519,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="TestNG XML created" />
     <MESSAGE value="typo fixed in the verifyCartItem argument" />
     <MESSAGE value="Renamed ModularizedTest.java to SubmitOrderTest" />
     <MESSAGE value="Order page created" />
@@ -545,6 +543,7 @@
     <MESSAGE value="Fixed typos" />
     <MESSAGE value="Added a wait in the productErrorValidation.png" />
     <MESSAGE value="Retry mechanism added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Retry mechanism added" />
+    <MESSAGE value="Running suites using maven" />
+    <option name="LAST_COMMIT_MESSAGE" value="Running suites using maven" />
   </component>
 </project>
