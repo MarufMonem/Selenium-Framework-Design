@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6960d65-f561-4ac8-8b8a-625a99fb89e2" name="Changes" comment="Added a wait in the productErrorValidation.png">
-      <change afterPath="$PROJECT_DIR$/reports/loginErrorValidation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Selenium/Data/TestComponents/Retry.java" afterDir="false" />
+    <list default="true" id="e6960d65-f561-4ac8-8b8a-625a99fb89e2" name="Changes" comment="Retry mechanism added">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Extent Reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Extent Reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/productErrorValidation.png" beforeDir="false" afterPath="$PROJECT_DIR$/reports/productErrorValidation.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/TestComponents/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/Data/TestComponents/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/TestComponents/Listeners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/Data/TestComponents/Listeners.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/TestSuites/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/TestSuites/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/Tests/ErrorValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/Tests/ErrorValidation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/Tests/SubmitOrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/Tests/SubmitOrderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/loginErrorValidation.png" beforeDir="false" afterPath="$PROJECT_DIR$/reports/loginErrorValidation.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +29,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:/Program Files/apache-maven-3.8.6" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2FKiTDX4nREyeEtozVqVTEdeYdp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -42,19 +44,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;X:/Self improvement/Selenium Udemy/Code/Selenium_Framework_Design/src/test/java/Selenium/TestSuites&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "X:/Self improvement/Selenium Udemy/Code/Selenium_Framework_Design/src/test/java/Selenium/TestSuites",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propCompiler"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="X:\Self improvement\Selenium Udemy\Code\Selenium_Framework_Design\src\test\java\Selenium\TestSuites" />
@@ -67,7 +69,31 @@
       <recent name="Selenium.Tests" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.X:/Self improvement/Selenium Udemy/Code/Selenium_Framework_Design/src/test/java/Selenium/TestSuites/testng.xml">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+      <command value="mvn install" />
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.SubmitOrderTest.submitOrder">
+    <configuration name="ErrorValidation.loginErrorValidation" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium_Framework_Design" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Selenium.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Selenium.Tests" />
+      <option name="MAIN_CLASS_NAME" value="Selenium.Tests.ErrorValidation" />
+      <option name="METHOD_NAME" value="loginErrorValidation" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SubmitOrderTest.submitOrder" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium_Framework_Design" />
       <extension name="coverage">
@@ -80,16 +106,6 @@
       <option name="MAIN_CLASS_NAME" value="Selenium.Tests.SubmitOrderTest" />
       <option name="METHOD_NAME" value="submitOrder" />
       <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="X:/Self improvement/Selenium Udemy/Code/Selenium_Framework_Design/src/test/java/Selenium/TestSuites/ErrorValidation.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Selenium_Framework_Design" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/Selenium/TestSuites/ErrorValidation.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -128,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SubmitOrderTest.submitOrder" />
+        <item itemvalue="TestNG.ErrorValidation.loginErrorValidation" />
         <item itemvalue="TestNG.X:/Self improvement/Selenium Udemy/Code/Selenium_Framework_Design/src/test/java/Selenium/TestSuites/testng.xml" />
         <item itemvalue="TestNG.X:/Self improvement/Selenium Udemy/Code/Selenium_Framework_Design/testng.xml" />
         <item itemvalue="TestNG.X:/Self improvement/Selenium Udemy/Code/Selenium_Framework_Design/src/test/java/Selenium/TestSuites/Purchase.xml" />
-        <item itemvalue="TestNG.X:/Self improvement/Selenium Udemy/Code/Selenium_Framework_Design/src/test/java/Selenium/TestSuites/ErrorValidation.xml" />
-        <item itemvalue="TestNG.SubmitOrderTest.submitOrder" />
       </list>
     </recent_temporary>
   </component>
@@ -144,13 +160,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664247183828</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Webdriver manager dependency added">
-      <created>1664249416701</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1664249416701</updated>
     </task>
     <task id="LOCAL-00003" summary="Dependencies updated and StandAloneTest.java created">
       <created>1664345469040</created>
@@ -488,7 +497,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667185857221</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Retry mechanism added">
+      <created>1667453329559</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1667453329560</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -504,7 +520,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Added product error validation" />
     <MESSAGE value="TestNG XML created" />
     <MESSAGE value="typo fixed in the verifyCartItem argument" />
     <MESSAGE value="Renamed ModularizedTest.java to SubmitOrderTest" />
@@ -529,6 +544,7 @@
     <MESSAGE value="Listeners and extent reports setup completed" />
     <MESSAGE value="Fixed typos" />
     <MESSAGE value="Added a wait in the productErrorValidation.png" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a wait in the productErrorValidation.png" />
+    <MESSAGE value="Retry mechanism added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Retry mechanism added" />
   </component>
 </project>
