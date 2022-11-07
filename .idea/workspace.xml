@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6960d65-f561-4ac8-8b8a-625a99fb89e2" name="Changes" comment="Added the remaining suites and changed the default goal to test">
+    <list default="true" id="e6960d65-f561-4ac8-8b8a-625a99fb89e2" name="Changes" comment="Added the option to input preferred browser through command line&#10;&#10;Using java ternary operator">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extent Reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Extent Reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/submitOrder.png" beforeDir="false" afterPath="$PROJECT_DIR$/reports/submitOrder.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/Data/TestComponents/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/Data/TestComponents/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,13 +157,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664247183828</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Finding desired elements using java streams and adding item to cart">
-      <created>1664348065440</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1664348065440</updated>
     </task>
     <task id="LOCAL-00006" summary="Added wait for the animation and toast message. Added code for cart button.">
       <created>1664596099132</created>
@@ -503,7 +494,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667718511631</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Added the option to input preferred browser through command line&#10;&#10;Using java ternary operator">
+      <created>1667792949357</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1667792949358</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -519,7 +517,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Renamed ModularizedTest.java to SubmitOrderTest" />
     <MESSAGE value="Order page created" />
     <MESSAGE value="Updated the order page with 2 new methods to navigate to the page and verify orders" />
     <MESSAGE value="Parallel testing" />
@@ -544,6 +541,7 @@
     <MESSAGE value="Retry mechanism added" />
     <MESSAGE value="Running suites using maven" />
     <MESSAGE value="Added the remaining suites and changed the default goal to test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added the remaining suites and changed the default goal to test" />
+    <MESSAGE value="Added the option to input preferred browser through command line&#10;&#10;Using java ternary operator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the option to input preferred browser through command line&#10;&#10;Using java ternary operator" />
   </component>
 </project>
