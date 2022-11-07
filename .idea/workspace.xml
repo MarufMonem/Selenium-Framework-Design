@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6960d65-f561-4ac8-8b8a-625a99fb89e2" name="Changes" comment="Running suites using maven">
+    <list default="true" id="e6960d65-f561-4ac8-8b8a-625a99fb89e2" name="Changes" comment="Added the remaining suites and changed the default goal to test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Extent Reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Extent Reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/Tests/ErrorValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/Tests/ErrorValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/submitOrder.png" beforeDir="false" afterPath="$PROJECT_DIR$/reports/submitOrder.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/Data/TestComponents/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/Data/TestComponents/BaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,19 +43,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "X:/Self improvement/Selenium Udemy/Code/Selenium_Framework_Design/src/test/java/Selenium/TestSuites",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propCompiler"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;X:/Self improvement/Selenium Udemy/Code/Selenium_Framework_Design/src/test/java/Selenium/TestSuites&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="X:\Self improvement\Selenium Udemy\Code\Selenium_Framework_Design\src\test\java\Selenium\TestSuites" />
@@ -159,13 +159,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664247183828</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Successfully logged in">
-      <created>1664345771148</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1664345771148</updated>
     </task>
     <task id="LOCAL-00005" summary="Finding desired elements using java streams and adding item to cart">
       <created>1664348065440</created>
@@ -503,7 +496,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667716556675</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Added the remaining suites and changed the default goal to test">
+      <created>1667718511631</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1667718511631</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -519,7 +519,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="typo fixed in the verifyCartItem argument" />
     <MESSAGE value="Renamed ModularizedTest.java to SubmitOrderTest" />
     <MESSAGE value="Order page created" />
     <MESSAGE value="Updated the order page with 2 new methods to navigate to the page and verify orders" />
@@ -544,6 +543,7 @@
     <MESSAGE value="Added a wait in the productErrorValidation.png" />
     <MESSAGE value="Retry mechanism added" />
     <MESSAGE value="Running suites using maven" />
-    <option name="LAST_COMMIT_MESSAGE" value="Running suites using maven" />
+    <MESSAGE value="Added the remaining suites and changed the default goal to test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the remaining suites and changed the default goal to test" />
   </component>
 </project>

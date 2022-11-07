@@ -9,6 +9,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
@@ -32,14 +33,22 @@ public class BaseTest {
         Properties prop = new Properties();
         FileInputStream fis = new FileInputStream(System.getProperty("user.dir") + "\\src\\test\\java\\Selenium\\Resources\\GlobalData.properties");
         prop.load(fis);
-        String browserName =  prop.getProperty("browser");
+        String browserName = System.getProperty("browser")!=null ? System.getProperty("browser") : prop.getProperty("browser");
+//        value assign = if this system value is not null ? then use whatever value you got : if its null then use the global properties
+
+//        String browserName =  prop.getProperty("browser");
 
 //        Chrome
         if(browserName.equalsIgnoreCase("chrome")) {
             WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver();
 
-        }else{
+        }else if (browserName.equalsIgnoreCase("edge")) {
+            WebDriverManager.edgedriver().setup();
+            driver = new EdgeDriver();
+
+        }
+        else{
             System.out.println("we dont have this");
         }
 
