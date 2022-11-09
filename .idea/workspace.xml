@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6960d65-f561-4ac8-8b8a-625a99fb89e2" name="Changes" comment="Added the option to input preferred browser through command line&#10;&#10;Using java ternary operator">
+    <list default="true" id="e6960d65-f561-4ac8-8b8a-625a99fb89e2" name="Changes" comment="Changed the default goal from test to surefire:test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extent Reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Extent Reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/Data/TestComponents/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/Data/TestComponents/BaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +73,7 @@
       <command value="mvn install" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.SubmitOrderTest.submitOrder">
+  <component name="RunManager" selected="TestNG.X:/Self improvement/Selenium Udemy/Code/Selenium_Framework_Design/src/test/java/Selenium/TestSuites/ErrorValidation.xml">
     <configuration name="ErrorValidation.loginErrorValidation" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium_Framework_Design" />
       <extension name="coverage">
@@ -109,9 +110,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="X:/Self improvement/Selenium Udemy/Code/Selenium_Framework_Design/src/test/java/Selenium/TestSuites/Purchase.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="X:/Self improvement/Selenium Udemy/Code/Selenium_Framework_Design/src/test/java/Selenium/TestSuites/ErrorValidation.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium_Framework_Design" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/Selenium/TestSuites/Purchase.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/Selenium/TestSuites/ErrorValidation.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -141,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.X:/Self improvement/Selenium Udemy/Code/Selenium_Framework_Design/src/test/java/Selenium/TestSuites/ErrorValidation.xml" />
         <item itemvalue="TestNG.SubmitOrderTest.submitOrder" />
         <item itemvalue="TestNG.ErrorValidation.loginErrorValidation" />
         <item itemvalue="TestNG.X:/Self improvement/Selenium Udemy/Code/Selenium_Framework_Design/src/test/java/Selenium/TestSuites/testng.xml" />
         <item itemvalue="TestNG.X:/Self improvement/Selenium Udemy/Code/Selenium_Framework_Design/testng.xml" />
-        <item itemvalue="TestNG.X:/Self improvement/Selenium Udemy/Code/Selenium_Framework_Design/src/test/java/Selenium/TestSuites/Purchase.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -157,13 +158,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664247183828</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Added wait for the animation and toast message. Added code for cart button.">
-      <created>1664596099132</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1664596099132</updated>
     </task>
     <task id="LOCAL-00007" summary="Added assertion to verify the desired item is in cart or not.">
       <created>1664597099785</created>
@@ -501,7 +495,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667792949358</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Changed the default goal from test to surefire:test">
+      <created>1667797243434</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1667797243434</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -517,7 +518,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Order page created" />
     <MESSAGE value="Updated the order page with 2 new methods to navigate to the page and verify orders" />
     <MESSAGE value="Parallel testing" />
     <MESSAGE value="New error handling test suite created (XML)" />
@@ -542,6 +542,7 @@
     <MESSAGE value="Running suites using maven" />
     <MESSAGE value="Added the remaining suites and changed the default goal to test" />
     <MESSAGE value="Added the option to input preferred browser through command line&#10;&#10;Using java ternary operator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added the option to input preferred browser through command line&#10;&#10;Using java ternary operator" />
+    <MESSAGE value="Changed the default goal from test to surefire:test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed the default goal from test to surefire:test" />
   </component>
 </project>
