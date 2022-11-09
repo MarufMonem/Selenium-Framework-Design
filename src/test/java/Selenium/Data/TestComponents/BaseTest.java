@@ -51,13 +51,13 @@ public class BaseTest {
 //            below helps to run in ful screen
             driver.manage().window().setSize(new Dimension(1440,900));
 
-        }else if (browserName.equalsIgnoreCase("edge")) {
+        }else if (browserName.contains("edge")) {
             WebDriverManager.edgedriver().setup();
             driver = new EdgeDriver();
 
         }
         else{
-            System.out.println("we dont have this");
+            System.out.println("we don't have this");
         }
 
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10)); //Implicit wait
