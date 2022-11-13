@@ -27,5 +27,10 @@ public class Confirmation extends abstractComponent {
 
  }
 
+    public void messageWithParameters(String message){
+        Assert.assertTrue(successMsg.getText().contains(message));
+        System.out.println("Done!");
+
+    }
 
 }

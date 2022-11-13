@@ -9,17 +9,8 @@ Feature: Purchase the order from the e-commerce website
     Given Logged in with username <name> and password <password>
     When I add product <productName>
     And Checkout <productName> and submit the order
-    Then "ThANKYOU FOR THE ORDER." message is diplayed on the confirmation page
+    Then "THANKYOU FOR THE ORDER." message is displayed on the confirmation page
     Examples:
       | name                  | password    | productName |
       | rahulshetty@gmail.com | IamKing@000 | ZARA COAT 3 |
-      | name2                 | 7           |             |
 
-  @tag2
-  Scenario: Title
-    Given
-    And
-    When
-    And
-    Then
-    And

@@ -4,20 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6960d65-f561-4ac8-8b8a-625a99fb89e2" name="Changes" comment="Cucumber dependencies added">
-      <change afterPath="$PROJECT_DIR$/src/test/java/.cucumber+/cucumber+.default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/.cucumber+/cucumber+.default.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/.cucumber+/cucumber+.font.default.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/.cucumber+/cucumber+.picture.default.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/.cucumber+/cucumber+.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/.cucumber+/cucumber+.template.default.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Selenium/Cucumber/SubmitOrder.feature" afterDir="false" />
+    <list default="true" id="e6960d65-f561-4ac8-8b8a-625a99fb89e2" name="Changes" comment="Added one scenario of purchasing orders in SubmitOrder.feature">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Selenium/StepDefinitions/stepDefinationImplemenation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/pageObjectModel/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/pageObjectModel/Cart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/pageObjectModel/Checkout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/pageObjectModel/Checkout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/.cucumber+/cucumber+.picture.default.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/.cucumber+/cucumber+.picture.default.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/Cucumber/SubmitOrder.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/Cucumber/SubmitOrder.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/pageObjectModel/Confirmation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/pageObjectModel/Confirmation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/pageObjectModel/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/pageObjectModel/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/pageObjectModel/landingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/pageObjectModel/landingPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,13 +160,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664247183828</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Added page factory annotations">
-      <created>1665556517917</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1665556517918</updated>
     </task>
     <task id="LOCAL-00011" summary="Duplicated the StandAloneTest.java to make changes here.">
       <created>1665557071633</created>
@@ -512,7 +497,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668312041482</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Added one scenario of purchasing orders in SubmitOrder.feature">
+      <created>1668315511725</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1668315511725</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -528,7 +520,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="refactored code" />
     <MESSAGE value="refactored main test XML" />
     <MESSAGE value="Added a data provider annotation" />
     <MESSAGE value="Updated data provider method to use hashmaps" />
@@ -553,6 +544,7 @@
     <MESSAGE value="Running chrome in headless mode" />
     <MESSAGE value="Refactoring" />
     <MESSAGE value="Cucumber dependencies added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cucumber dependencies added" />
+    <MESSAGE value="Added one scenario of purchasing orders in SubmitOrder.feature" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added one scenario of purchasing orders in SubmitOrder.feature" />
   </component>
 </project>
