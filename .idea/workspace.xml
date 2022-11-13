@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6960d65-f561-4ac8-8b8a-625a99fb89e2" name="Changes" comment="Added one scenario of purchasing orders in SubmitOrder.feature">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Selenium/StepDefinitions/stepDefinationImplemenation.java" afterDir="false" />
+    <list default="true" id="e6960d65-f561-4ac8-8b8a-625a99fb89e2" name="Changes" comment="TestNG runner created">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Selenium/Cucumber/TestNGTestRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/.cucumber+/cucumber+.picture.default.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/.cucumber+/cucumber+.picture.default.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/Cucumber/SubmitOrder.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/Cucumber/SubmitOrder.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/pageObjectModel/Confirmation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/pageObjectModel/Confirmation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/Data/TestComponents/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/Data/TestComponents/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/StepDefinitions/stepDefinitionImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/StepDefinitions/stepDefinitionImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/pageObjectModel/landingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/pageObjectModel/landingPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,25 +75,7 @@
       <command value="mvn install" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.X:/Self improvement/Selenium Udemy/Code/Selenium_Framework_Design/src/test/java/Selenium/TestSuites/ErrorValidation.xml">
-    <configuration name="ErrorValidation.loginErrorValidation" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Selenium_Framework_Design" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Selenium.Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Selenium.Tests" />
-      <option name="MAIN_CLASS_NAME" value="Selenium.Tests.ErrorValidation" />
-      <option name="METHOD_NAME" value="loginErrorValidation" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.TestNGTestRunner">
     <configuration name="SubmitOrderTest.submitOrder" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium_Framework_Design" />
       <extension name="coverage">
@@ -106,6 +88,23 @@
       <option name="MAIN_CLASS_NAME" value="Selenium.Tests.SubmitOrderTest" />
       <option name="METHOD_NAME" value="submitOrder" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNGTestRunner" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium_Framework_Design" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Selenium.Cucumber.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Selenium.Cucumber" />
+      <option name="MAIN_CLASS_NAME" value="Selenium.Cucumber.TestNGTestRunner" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -144,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestNGTestRunner" />
         <item itemvalue="TestNG.X:/Self improvement/Selenium Udemy/Code/Selenium_Framework_Design/testng.xml" />
         <item itemvalue="TestNG.X:/Self improvement/Selenium Udemy/Code/Selenium_Framework_Design/src/test/java/Selenium/TestSuites/testng.xml" />
         <item itemvalue="TestNG.X:/Self improvement/Selenium Udemy/Code/Selenium_Framework_Design/src/test/java/Selenium/TestSuites/ErrorValidation.xml" />
         <item itemvalue="TestNG.SubmitOrderTest.submitOrder" />
-        <item itemvalue="TestNG.ErrorValidation.loginErrorValidation" />
       </list>
     </recent_temporary>
   </component>
@@ -160,13 +159,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664247183828</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Duplicated the StandAloneTest.java to make changes here.">
-      <created>1665557071633</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1665557071633</updated>
     </task>
     <task id="LOCAL-00012" summary="Created a class to handle the product page">
       <created>1665559665317</created>
@@ -504,7 +496,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668315511725</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="Step definition created to handle the feature file">
+      <created>1668321119733</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1668321119733</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -520,8 +519,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="refactored main test XML" />
-    <MESSAGE value="Added a data provider annotation" />
     <MESSAGE value="Updated data provider method to use hashmaps" />
     <MESSAGE value="Created a package to handle data" />
     <MESSAGE value="Data added in the json file" />
@@ -545,6 +542,8 @@
     <MESSAGE value="Refactoring" />
     <MESSAGE value="Cucumber dependencies added" />
     <MESSAGE value="Added one scenario of purchasing orders in SubmitOrder.feature" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added one scenario of purchasing orders in SubmitOrder.feature" />
+    <MESSAGE value="Step definition created to handle the feature file" />
+    <MESSAGE value="TestNG runner created" />
+    <option name="LAST_COMMIT_MESSAGE" value="TestNG runner created" />
   </component>
 </project>

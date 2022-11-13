@@ -85,6 +85,14 @@ public class BaseTest {
         lp.goToApp();
     }
 
+    public landingPage launchApplicationReturn() throws IOException {
+        driver = intializeDriver();
+        lp = new landingPage(driver);
+        lp.goToApp();
+        return lp;
+    }
+
+
 
     @AfterMethod(alwaysRun = true)
     public void closeBrowser() throws InterruptedException {

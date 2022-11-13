@@ -13,12 +13,12 @@ import java.io.IOException;
 import java.util.List;
 
 public class stepDefinitionImplementation extends BaseTest {
-    public landingPage lp;
+    landingPage lp;
     ProductCatalogue pc;
     Confirmation confir;
     @Given("I landed on the E-commerce page")
     public void I_landed_on_the_Ecommerce_page() throws IOException{
-       launchApplication();
+        lp = launchApplicationReturn();
     }
 
     @Given("^Logged in with username (.+) and password (.+)$")
